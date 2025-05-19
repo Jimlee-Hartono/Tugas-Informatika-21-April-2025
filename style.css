@@ -1,4 +1,4 @@
-/* ===== Reset & Base ===== */
+/* Reset & Base */
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +6,8 @@
 }
 body {
   font-family: 'Poppins', 'Segoe UI', sans-serif;
-  background-color: #e6faff; /* very light blue */
-  color: #1b2a41; /* dark navy tone */
+  background-color: #e6faff;
+  color: #1b2a41;
   line-height: 1.6;
 }
 a {
@@ -18,7 +18,7 @@ ul {
   list-style: none;
 }
 
-/* Navigation */
+/* Nav */
 nav {
   background: linear-gradient(to right, #baeaff, #fff7e6); /* cyan to cream */
   padding: 1rem 2rem;
@@ -47,7 +47,7 @@ nav a:hover::after {
   bottom: -6px;
   width: 100%;
   height: 2px;
-  background-color: #00bcd4; /* cyan */
+  background-color: #00bcd4;
   border-radius: 1px;
 }
 nav a:hover {
@@ -76,7 +76,7 @@ nav a:hover {
 }
 .hero-text .highlight {
   font-size: 1.1rem;
-  color: #1e88e5; /* light blue/navy */
+  color: #1e88e5;
   font-weight: 600;
 }
 .hero-text .subtext {
@@ -176,7 +176,7 @@ nav a:hover {
   margin-bottom: 15px;
 }
 
-/* Projects Section */
+/* Projects */
 .projects {
   padding: 100px 60px;
   background-color: #e6faff;
@@ -237,7 +237,7 @@ nav a:hover {
   transform: scale(1.05);
 }
 
-/* Vision Section */
+/* Vision */
 .vision {
   display: flex;
   align-items: center;
@@ -279,7 +279,7 @@ nav a:hover {
   padding: 6px;
 }
 
-/* Connect Section */
+/* Connect */
 .connect {
   padding: 100px 60px;
   background: linear-gradient(to bottom right, #e6faff, #fff7e6);
